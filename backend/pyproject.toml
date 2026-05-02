@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "metadata-authority-backend"
+version = "0.1.0"
+description = "FastAPI backend for Metadata Authority & Library Normalization System"
+authors = ["Your Name <example@email.com>"]
+
+[tool.poetry.dependencies]
+python = "3.14.*"
+fastapi = "0.110.2"
+pydantic = "2.7.1"
+uvicorn = "0.29.0"
+mutagen = "1.47.0"
+aiosqlite = "^0.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
